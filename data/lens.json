@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "model": "ILCE-6700",
+      "name": "Sony Alpha 6700",
+      "imageUrl": "a6700.jpg"
+    },
+    {
+      "model": "ILCE-7RM4",
+      "name": "Sony Alpha 7R IV",
+      "imageUrl": "a7R4.jpg"
+    },
+    {
+      "model": "ILCE-9M3",
+      "name": "Sony Alpha 9 III",
+      "imageUrl": "a93.jpg"
+    }
+  ]
+}
