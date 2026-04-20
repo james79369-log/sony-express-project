@@ -18,9 +18,12 @@ app.use(express.static('public'));
 
 // 3. 管理後台：驗證暗號 (Route Authorization)
 app.get('/admin', (req, res) => {
+  // 檢查網址有沒有帶 ?code=521
   if (req.query.code === '521') {
+    // 成功通過驗證，回傳 HTTP 200
     res.status(200).send('<h1>Welcome to Admin (歡迎進入後台)</h1>');
   } else {
+    // 請求被攔截，回傳 HTTP 403 並顯示錯誤
     res.status(403).send('<h1>Access Denied (暗號錯誤)</h1>');
   }
 });
